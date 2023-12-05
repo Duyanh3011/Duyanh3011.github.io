@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form method="POST" action="">
+            <h1>Đăng nhập</h1>
+        <!-- Text -->
+            <div>
+                <label for="fname">First name:</label>
+                <input type="text" id = "fname"  name = "fname"><br> 
+            </div>
+
+            <div>
+                <label for="lname">Last name:</label>
+                <input type="text" id = "lname"  name = "lname"><br> 
+            </div>
+        
+        <!-- Password -->
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" id = "pass"  name = "pass"><br> 
+            </div>
+            
+        <!-- date -->
+            <div>
+                <label for="date">Date:</label>
+                <input type="date" id = "date"  name = "date"><br> 
+            </div>
+        <!-- Select - option -->
+            <div>
+                <select >
+                    <option value = "SE">SE</option>
+                    <option value = "AI">AI</option>
+                    <option value = "HE">HE</option>
+
+                </select>
+            </div>
+
+        <!-- Radio multiple -->
+            <div> Choose multiple:
+                <input type="radio"  value="Student">Student
+                <input type="radio" value="Teacher">Teacher
+                <input type="radio" value="Staff">Staff
+            </div>
+        
+        <!-- Radio choose 1 only -->
+        <div> Choose 1 only: 
+            <input type="radio" name = "role" value="Student">Student
+            <input type="radio" name = "role" value="Teacher">Teacher
+            <input type="radio" name = "role" value="Staff">Staff
+        </div>
+    
+        <!-- Submit -->
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
